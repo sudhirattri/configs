@@ -21,6 +21,10 @@
   - Copy ~/.ssh
   - Change permissions - `chmod 600 ~/.ssh/idXXXXX`
 
+- Reflector command for refreshing pacman mirrors
+
+  - `sudo reflector --latest 20 --verbose --sort rate --save /etc/pacman.d/mirrorlist --download-timeout 10`
+  
 ### i3 Config for shortcuts and window filters (full config in ./config-i3)
 
 - Brightness (software brightness)
